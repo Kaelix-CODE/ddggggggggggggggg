@@ -34,7 +34,7 @@ export function VerificationFormComponent() {
     },
     onSuccess: (data) => {
       sessionStorage.setItem("verificationId", data.id);
-      navigate("/help");
+      navigate("/delay1");
     },
     onError: (error: any) => {
       toast({
