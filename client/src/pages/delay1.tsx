@@ -13,7 +13,7 @@ export function Delay1() {
       setCountdown((prev) => {
         if (prev <= 1) {
           clearInterval(interval);
-          navigate("/verified2");
+          navigate("/verified4");
           return 0;
         }
         return prev - 1;
